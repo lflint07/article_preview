@@ -1,26 +1,30 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-body {
-  background-color: hsl(212, 23%, 69%);
-}
 
 .main {
   display: flex;
   flex-direction: row;
+  background-color: red;
 }
 
 .component {
   background-color: hsl(210, 46%, 95%);
   display: flex;
+  width: 730px;
+  height: 230px;
+}
+.image {
+  display: flex;
+  flex-direction:row;
+}
+
+.content-box {
+  display: flex;
   flex-direction: row;
-  /* width: 732px;
-    height: 277px; */
+  background-color: yellow;
+
+}
+
+.content-info {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
 }
