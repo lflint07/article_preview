@@ -2,29 +2,14 @@
 .main {
   display: flex;
   flex-direction: row;
-  background-color: red;
+  background-color: violet;
+  min-height: 100vh;
+  
 }
 
-.component {
-  background-color: hsl(210, 46%, 95%);
-  display: flex;
-  width: 730px;
-  height: 230px;
-}
-.image {
-  display: flex;
-  flex-direction:row;
-}
-
-.content-box {
-  display: flex;
-  flex-direction: row;
-  background-color: yellow;
-
-}
-
-.content-info {
-  display: flex;
-  flex-direction: column;
+ .component {
   background-color: green;
-}
+  width: 300px;
+ }
+
+
